@@ -1,0 +1,6 @@
+name: mistral-cache-affinity
+version: 0.1.0
+description: Stable x-affinity routing for the global and EU Mistral chat endpoints.
+author: kedf
+provides_middleware:
+  - llm_request

@@ -1,0 +1,210 @@
+{
+  "model": "mistral-large-4",
+  "synthetic_only": true,
+  "endpoints": {
+    "api.eu.mistral.ai": {
+      "calls": [
+        {
+          "call": 1,
+          "prompt_tokens": 3828,
+          "cached_tokens": 0,
+          "completion_tokens": 8,
+          "cache_pct": 0.0,
+          "elapsed_ms": 1647
+        },
+        {
+          "call": 2,
+          "prompt_tokens": 3828,
+          "cached_tokens": 3052,
+          "completion_tokens": 8,
+          "cache_pct": 79.73,
+          "elapsed_ms": 708
+        },
+        {
+          "call": 3,
+          "prompt_tokens": 3828,
+          "cached_tokens": 3564,
+          "completion_tokens": 8,
+          "cache_pct": 93.1,
+          "elapsed_ms": 663
+        },
+        {
+          "call": 4,
+          "prompt_tokens": 3828,
+          "cached_tokens": 3564,
+          "completion_tokens": 8,
+          "cache_pct": 93.1,
+          "elapsed_ms": 601
+        },
+        {
+          "call": 5,
+          "prompt_tokens": 3828,
+          "cached_tokens": 3564,
+          "completion_tokens": 8,
+          "cache_pct": 93.1,
+          "elapsed_ms": 2566
+        },
+        {
+          "call": 6,
+          "prompt_tokens": 3828,
+          "cached_tokens": 0,
+          "completion_tokens": 8,
+          "cache_pct": 0.0,
+          "elapsed_ms": 885
+        }
+      ],
+      "wire": [
+        {
+          "host": "api.eu.mistral.ai",
+          "path": "/v1/chat/completions",
+          "body_sha256": "41ea223282316bbe6e60f7879f9b47d8c839d2258ec1eb6357bc07a52c4c49e2",
+          "messages_sha256": "7fb8d2afc73c0fc637959502b2a79ec76df47db0a400d22dbae7297ec8a658b5",
+          "cache_key_sha256": "5bb26f2493052439110a54f9ed1e3bd37d6dddd526fe0aa9e1654f337ce32b35",
+          "affinity_matches_key": true
+        },
+        {
+          "host": "api.eu.mistral.ai",
+          "path": "/v1/chat/completions",
+          "body_sha256": "41ea223282316bbe6e60f7879f9b47d8c839d2258ec1eb6357bc07a52c4c49e2",
+          "messages_sha256": "7fb8d2afc73c0fc637959502b2a79ec76df47db0a400d22dbae7297ec8a658b5",
+          "cache_key_sha256": "5bb26f2493052439110a54f9ed1e3bd37d6dddd526fe0aa9e1654f337ce32b35",
+          "affinity_matches_key": true
+        },
+        {
+          "host": "api.eu.mistral.ai",
+          "path": "/v1/chat/completions",
+          "body_sha256": "41ea223282316bbe6e60f7879f9b47d8c839d2258ec1eb6357bc07a52c4c49e2",
+          "messages_sha256": "7fb8d2afc73c0fc637959502b2a79ec76df47db0a400d22dbae7297ec8a658b5",
+          "cache_key_sha256": "5bb26f2493052439110a54f9ed1e3bd37d6dddd526fe0aa9e1654f337ce32b35",
+          "affinity_matches_key": true
+        },
+        {
+          "host": "api.eu.mistral.ai",
+          "path": "/v1/chat/completions",
+          "body_sha256": "41ea223282316bbe6e60f7879f9b47d8c839d2258ec1eb6357bc07a52c4c49e2",
+          "messages_sha256": "7fb8d2afc73c0fc637959502b2a79ec76df47db0a400d22dbae7297ec8a658b5",
+          "cache_key_sha256": "5bb26f2493052439110a54f9ed1e3bd37d6dddd526fe0aa9e1654f337ce32b35",
+          "affinity_matches_key": true
+        },
+        {
+          "host": "api.eu.mistral.ai",
+          "path": "/v1/chat/completions",
+          "body_sha256": "41ea223282316bbe6e60f7879f9b47d8c839d2258ec1eb6357bc07a52c4c49e2",
+          "messages_sha256": "7fb8d2afc73c0fc637959502b2a79ec76df47db0a400d22dbae7297ec8a658b5",
+          "cache_key_sha256": "5bb26f2493052439110a54f9ed1e3bd37d6dddd526fe0aa9e1654f337ce32b35",
+          "affinity_matches_key": true
+        },
+        {
+          "host": "api.eu.mistral.ai",
+          "path": "/v1/chat/completions",
+          "body_sha256": "41ea223282316bbe6e60f7879f9b47d8c839d2258ec1eb6357bc07a52c4c49e2",
+          "messages_sha256": "7fb8d2afc73c0fc637959502b2a79ec76df47db0a400d22dbae7297ec8a658b5",
+          "cache_key_sha256": "5bb26f2493052439110a54f9ed1e3bd37d6dddd526fe0aa9e1654f337ce32b35",
+          "affinity_matches_key": true
+        }
+      ]
+    },
+    "api.mistral.ai": {
+      "calls": [
+        {
+          "call": 1,
+          "prompt_tokens": 3826,
+          "cached_tokens": 0,
+          "completion_tokens": 8,
+          "cache_pct": 0.0,
+          "elapsed_ms": 1245
+        },
+        {
+          "call": 2,
+          "prompt_tokens": 3826,
+          "cached_tokens": 3052,
+          "completion_tokens": 8,
+          "cache_pct": 79.77,
+          "elapsed_ms": 809
+        },
+        {
+          "call": 3,
+          "prompt_tokens": 3826,
+          "cached_tokens": 3564,
+          "completion_tokens": 8,
+          "cache_pct": 93.15,
+          "elapsed_ms": 631
+        },
+        {
+          "call": 4,
+          "prompt_tokens": 3826,
+          "cached_tokens": 3564,
+          "completion_tokens": 8,
+          "cache_pct": 93.15,
+          "elapsed_ms": 757
+        },
+        {
+          "call": 5,
+          "prompt_tokens": 3826,
+          "cached_tokens": 3564,
+          "completion_tokens": 8,
+          "cache_pct": 93.15,
+          "elapsed_ms": 2340
+        },
+        {
+          "call": 6,
+          "prompt_tokens": 3826,
+          "cached_tokens": 3564,
+          "completion_tokens": 8,
+          "cache_pct": 93.15,
+          "elapsed_ms": 663
+        }
+      ],
+      "wire": [
+        {
+          "host": "api.mistral.ai",
+          "path": "/v1/chat/completions",
+          "body_sha256": "1fdd2cf347aadbfa02986f98860c0bb33ef8aa2493446c5b054040c2c9e36515",
+          "messages_sha256": "ee20ca711194312994785619bbbc7722edfdb574e31bc3236a961322fc0177dc",
+          "cache_key_sha256": "d24c00d29b0bc4a25e80dd843e8d982ed4ad0728d86b8c039a819866b0a0956e",
+          "affinity_matches_key": true
+        },
+        {
+          "host": "api.mistral.ai",
+          "path": "/v1/chat/completions",
+          "body_sha256": "1fdd2cf347aadbfa02986f98860c0bb33ef8aa2493446c5b054040c2c9e36515",
+          "messages_sha256": "ee20ca711194312994785619bbbc7722edfdb574e31bc3236a961322fc0177dc",
+          "cache_key_sha256": "d24c00d29b0bc4a25e80dd843e8d982ed4ad0728d86b8c039a819866b0a0956e",
+          "affinity_matches_key": true
+        },
+        {
+          "host": "api.mistral.ai",
+          "path": "/v1/chat/completions",
+          "body_sha256": "1fdd2cf347aadbfa02986f98860c0bb33ef8aa2493446c5b054040c2c9e36515",
+          "messages_sha256": "ee20ca711194312994785619bbbc7722edfdb574e31bc3236a961322fc0177dc",
+          "cache_key_sha256": "d24c00d29b0bc4a25e80dd843e8d982ed4ad0728d86b8c039a819866b0a0956e",
+          "affinity_matches_key": true
+        },
+        {
+          "host": "api.mistral.ai",
+          "path": "/v1/chat/completions",
+          "body_sha256": "1fdd2cf347aadbfa02986f98860c0bb33ef8aa2493446c5b054040c2c9e36515",
+          "messages_sha256": "ee20ca711194312994785619bbbc7722edfdb574e31bc3236a961322fc0177dc",
+          "cache_key_sha256": "d24c00d29b0bc4a25e80dd843e8d982ed4ad0728d86b8c039a819866b0a0956e",
+          "affinity_matches_key": true
+        },
+        {
+          "host": "api.mistral.ai",
+          "path": "/v1/chat/completions",
+          "body_sha256": "1fdd2cf347aadbfa02986f98860c0bb33ef8aa2493446c5b054040c2c9e36515",
+          "messages_sha256": "ee20ca711194312994785619bbbc7722edfdb574e31bc3236a961322fc0177dc",
+          "cache_key_sha256": "d24c00d29b0bc4a25e80dd843e8d982ed4ad0728d86b8c039a819866b0a0956e",
+          "affinity_matches_key": true
+        },
+        {
+          "host": "api.mistral.ai",
+          "path": "/v1/chat/completions",
+          "body_sha256": "1fdd2cf347aadbfa02986f98860c0bb33ef8aa2493446c5b054040c2c9e36515",
+          "messages_sha256": "ee20ca711194312994785619bbbc7722edfdb574e31bc3236a961322fc0177dc",
+          "cache_key_sha256": "d24c00d29b0bc4a25e80dd843e8d982ed4ad0728d86b8c039a819866b0a0956e",
+          "affinity_matches_key": true
+        }
+      ]
+    }
+  }
+}
