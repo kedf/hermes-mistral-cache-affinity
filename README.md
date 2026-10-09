@@ -77,6 +77,18 @@ Les tests live sont opt-in, avec sorties bornées et sans retries
 automatiques. Les rapports ne conservent que les compteurs, latences et
 empreintes SHA-256 — jamais les clés API ni les conversations.
 
+## Related work
+
+- [fengrunda/hermes-deepseek-cache](https://github.com/fengrunda/hermes-deepseek-cache) —
+  même classe de problème (cache hit plafonnant ~25 %) côté DeepSeek, résolu par
+  « wire shaping » (retrait de `reasoning_content` des tours sans tool_calls).
+  Approche complémentaire : ici le corps de la requête n'est jamais modifié,
+  seul l'en-tête `x-affinity` est ajouté.
+- Le mécanisme `x-affinity` est un standard inter-harnais : OpenClaw, Pi, Zed et
+  d'autres envoient `x-affinity: <sessionId>` à Mistral pour le KV-cache.
+  Hermes génère déjà un `prompt_cache_key` (`supports_prompt_cache_key=True`)
+  mais ne l'envoyait pas en en-tête ; ce plugin comble ce trou.
+
 ## Contexte upstream
 
 Ce plugin répond à un problème connu et documenté dans
