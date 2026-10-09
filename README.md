@@ -46,8 +46,10 @@ plugins:
 Disable: `hermes plugins disable mistral-cache-affinity` in the profile
 concerned.
 
-> This plugin does not choose the endpoint: the `mistral-eu-endpoint`
-> companion sets the Mistral provider default to the EU region.
+> This plugin does not choose the endpoint: it applies to both
+> `api.mistral.ai` and `api.eu.mistral.ai`. Set the Mistral provider's
+> `base_url` (e.g. `https://api.eu.mistral.ai/v1`) in your Hermes config to
+> pick a region.
 
 ## Limitations
 

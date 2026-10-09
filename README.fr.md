@@ -48,8 +48,10 @@ plugins:
 Désactivation : `hermes plugins disable mistral-cache-affinity` dans le profil
 concerné.
 
-> Ce plugin ne choisit pas l'endpoint : le complément `mistral-eu-endpoint`
-> règle le défaut du fournisseur Mistral sur l'EU.
+> Ce plugin ne choisit pas l'endpoint : il s'applique aux deux hôtes
+> `api.mistral.ai` et `api.eu.mistral.ai`. Réglez le `base_url` du
+> fournisseur Mistral (par ex. `https://api.eu.mistral.ai/v1`) dans la
+> configuration Hermes pour choisir une région.
 
 ## Limites
 
